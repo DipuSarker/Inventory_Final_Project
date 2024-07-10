@@ -1,0 +1,147 @@
+﻿﻿@using OST_Inventory.Models;
+@using System.Data;
+
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    table {
+        border: 1px solid #808080;
+    }
+
+        table tr {
+            border: 1px solid #808080;
+        }
+
+            table tr td, table tr th {
+                border: 1px solid #808080;
+            }
+
+            /*table tr th {
+            position: sticky;
+        }*/
+
+            table tr:hover {
+                background: #ffd800;
+            }
+</style>
+
+<script>
+    function showPartialEquipmentPanel() {
+        $("#dvPartialEquipment").dialog({
+            resizable: false,
+            height: 500,
+            width: 1000,
+            modal: true
+        });
+        return false;
+    }
+
+</script>
+
+
+
+
+<form action="/Home/Dashboard" method="post">
+    <input type="button" id="btnAddNew" name="btnAddNew" value="Add New" onclick="return showPartialEquipmentPanel()" />
+
+    <div class="row">
+        <div class="col col-sm-6">
+            @{
+                List<BaseEquipment> plistData = (List<BaseEquipment>)ViewBag.plsData;
+
+                <div id="divTbl" style="width:500px; height:400px;overflow:auto;">
+
+                    <h4>Equipment list</h4>
+                    Equipment Name : <input type="text" id="txtName" name="txtName" />
+
+                    <input type="submit" value="Search" name="btnSubmit" />
+                    <input type="submit" value="Clear" name="btnClear" />
+
+                    <table style="width:100%">
+                        <tr>
+                            <th>Name</th>
+                            <th>Count</th>
+                            <th>Entry Date</th>
+                        </tr>
+
+
+                        @foreach (BaseEquipment obj in plistData)
+                        {
+                            if (ViewBag.txtName != "")
+                            {
+                                if (obj.Name == ViewBag.txtName)
+                                {
+                                    <tr>
+                                        <td>@obj.Name</td>
+                                        <td>@obj.EcCount</td>
+                                        <td>@obj.EntryDate.ToString()</td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td>@obj.Name</td>
+                                    <td>@obj.EcCount</td>
+                                    <td>@obj.EntryDate.ToString()</td>
+                                </tr>
+                            }
+                        }
+
+                    </table>
+                </div>
+            }
+        </div>
+
+        <div class="col col-sm-6">
+            <input type="button" id="btnEqipAssignment" name="btnEqipAssignment" value="Add New" onclick="return showPartialEquipmentPanel()" />
+            <div id="divTbl" style="width:500px; height:400px;overflow:auto;">
+                <h4>Customer List</h4>
+
+                <table style="width:100%">
+
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Customer Name</th>
+                        <th>Customer Mobile</th>
+                        <th>Equipment Count </th>
+                    </tr>
+
+                    @{
+                        System.Data.DataTable dataTable = (System.Data.DataTable)ViewBag.dtCustEquip;
+                        var pdata = (from p in dataTable.AsEnumerable()
+                                     select new
+                                     {
+                                         CustomerID = p.Field<Int32>("CustomerID"),
+                                         CustomerName = p.Field<string>("CustomerName"),
+                                         CustomerMobile = p.Field<string>("CustomerMobile"),
+                                         EquiCount = p.Field<Int32>("EquiCount")
+
+                                     }).ToList();
+
+
+                        foreach (var obj in pdata)
+                        {
+                            <tr>
+                                <td>@obj.CustomerID</td>
+                                <td>@obj.CustomerName</td>
+                                <td>@obj.CustomerMobile</td>
+                                <td>@obj.EquiCount</td>
+                            </tr>
+                        }
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+</form>
+
+
+@Html.Partial("~/Views/Home/_PartialEquipmentEntry.cshtml")
+

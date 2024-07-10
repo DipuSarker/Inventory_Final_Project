@@ -1,0 +1,122 @@
+﻿@model OST_Inventory.Models.BaseAccount
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+
+    @*<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">*@
+    <link href="~/Content/JqueryUI/jquery-ui.min.css" rel="stylesheet" />
+
+    @Scripts.Render("~/bundles/modernizr")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    @*<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>*@
+
+    <script src="~/Scripts/JqueryUI/jquery-ui.min.js"></script>
+
+
+    <script>
+        var GlobalMsg = '@ViewBag.loginMsg';
+        $(document).ready(function () {
+            if (GlobalMsg != "") {
+                $("#spanGlobalPartialMsg").html(GlobalMsg);
+                $("#dvGlobalPartialMsg").dialog({
+                    resizable: false,
+                    modal: true
+                });
+            }
+
+            if (GlobalMsg == "Login success") {
+                setTimeout(function () {
+                     window.location.href = '@Url.Action("Dashboard","Home")';
+                }, 2000);
+            }
+
+        })
+    </script>
+
+</head>
+<body>
+    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+    {
+        <div style="width: 400px; height: 600px; border:1px solid #ffd800; margin: auto; position:absolute;top:0px;bottom:0px;left:0px;right:0px;">
+            <div class="content">
+
+                <div class="row" style="padding: 5px 0px;">
+                    <div class="col col-sm-12">
+                        <h2 style="text-align:center;">Login</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-sm-2">
+                    </div>
+                    <div class="col col-sm-8">
+                        Username
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-sm-2">
+                    </div>
+                    <div class="col col-sm-8">
+                        @Html.TextBoxFor(m => m.Username, new { style = "width: 100%;" })
+                        @*<input type="text" style="width: 100%;" name="txtUsername" />*@
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-sm-2">
+                    </div>
+                    <div class="col col-sm-8">
+                        Password
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-sm-2">
+                    </div>
+                    <div class="col col-sm-8">
+                        @Html.TextBoxFor(m => m.Password, new { style = "width: 100%;" })
+                        @*<input type="password" style="width: 100%;" name="txtPassword" />*@
+                    </div>
+                </div>
+
+                <br />
+                <div class="row">
+                    <div class="col col-sm-2">
+                    </div>
+                    <div class="col col-sm-8">
+                        <input type="submit" value="Login" name="btnSubmit" style="width: 100%;" />
+                        <input type="submit" value="Reset" name="btnSubmit" style="width: 100%;" />
+
+                        <input type="submit" value="Forget Password" name="btnSubmit" style="width: 100%;" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    }
+
+
+    @*@using (Html.BeginForm("Forgetpassword", "Account"))
+        {
+            <input type="submit" value="Forget Password" name="btnSubmit" style="width: 100%;" />
+        }*@
+
+    @Html.Partial("~/Views/Common/_PartialGlobalMsg.cshtml")
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\ost_inventory\\models\\baseaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|solutionrelative:ost_inventory\\models\\baseaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|d:\\ostad asp.net\\asp.net mvc\\ost_inventory\\ost_inventory\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|solutionrelative:ost_inventory\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\ost_inventory\\views\\home\\_partialequipmentassignment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|solutionrelative:ost_inventory\\views\\home\\_partialequipmentassignment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\ost_inventory\\views\\home\\_partialequipmententry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|solutionrelative:ost_inventory\\views\\home\\_partialequipmententry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\ost_inventory\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|solutionrelative:ost_inventory\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\ost_inventory\\models\\basecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|solutionrelative:ost_inventory\\models\\basecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\ost_inventory\\models\\baseequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|solutionrelative:ost_inventory\\models\\baseequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\ost_inventory\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|solutionrelative:ost_inventory\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\ost_inventory\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94063F96-414D-4A71-A40C-E7FA143021D9}|OST_Inventory\\OST_Inventory.csproj|solutionrelative:ost_inventory\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseEquipment.cs",
+              "DocumentMoniker": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Models\\BaseEquipment.cs",
+              "RelativeDocumentMoniker": "OST_Inventory\\Models\\BaseEquipment.cs",
+              "ToolTip": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Models\\BaseEquipment.cs",
+              "RelativeToolTip": "OST_Inventory\\Models\\BaseEquipment.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:15:57.129Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_PartialEquipmentAssignment.cshtml",
+              "DocumentMoniker": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Views\\Home\\_PartialEquipmentAssignment.cshtml",
+              "RelativeDocumentMoniker": "OST_Inventory\\Views\\Home\\_PartialEquipmentAssignment.cshtml",
+              "ToolTip": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Views\\Home\\_PartialEquipmentAssignment.cshtml",
+              "RelativeToolTip": "OST_Inventory\\Views\\Home\\_PartialEquipmentAssignment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T14:50:47.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "OST_Inventory\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "OST_Inventory\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T14:44:27.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseAccount.cs",
+              "DocumentMoniker": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Models\\BaseAccount.cs",
+              "RelativeDocumentMoniker": "OST_Inventory\\Models\\BaseAccount.cs",
+              "ToolTip": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Models\\BaseAccount.cs",
+              "RelativeToolTip": "OST_Inventory\\Models\\BaseAccount.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwBoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T14:37:43.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Web.config",
+              "RelativeDocumentMoniker": "OST_Inventory\\Web.config",
+              "ToolTip": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Web.config",
+              "RelativeToolTip": "OST_Inventory\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-31T13:47:40.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseCustomer.cs",
+              "DocumentMoniker": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Models\\BaseCustomer.cs",
+              "RelativeDocumentMoniker": "OST_Inventory\\Models\\BaseCustomer.cs",
+              "ToolTip": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Models\\BaseCustomer.cs",
+              "RelativeToolTip": "OST_Inventory\\Models\\BaseCustomer.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwDwAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T13:43:48.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OST_Inventory\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OST_Inventory\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T15:40:32.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OST_Inventory\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OST_Inventory\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:33:50.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_PartialEquipmentEntry.cshtml",
+              "DocumentMoniker": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Views\\Home\\_PartialEquipmentEntry.cshtml",
+              "RelativeDocumentMoniker": "OST_Inventory\\Views\\Home\\_PartialEquipmentEntry.cshtml",
+              "ToolTip": "D:\\Ostad Asp.Net\\Asp.Net MVC\\OST_Inventory\\OST_Inventory\\Views\\Home\\_PartialEquipmentEntry.cshtml",
+              "RelativeToolTip": "OST_Inventory\\Views\\Home\\_PartialEquipmentEntry.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T15:33:25.317Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+﻿|
+<script>
+    $(document).ready(function () {
+        $("#txtEntryDate").datepicker();
+    })
+</script>
+
+
+<div id="dvPartialEquipment">
+
+    @using (Html.BeginForm("Dashboard", "Home"))
+    {
+        <div class="row">
+            <div class="col-md-2">
+                Select Equipment
+            </div>
+
+            <div class="col-md-4">
+                <select name="ddlEquipment">
+                    <option value="0">--Select--</option>
+                    <option value="L1">Laptop 1</option>
+                    <option value="L2">Laptop 2</option>
+                    <option value="L3">Laptop 3</option>
+                    <option value="L4">Laptop 4</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                Quantity
+            </div>
+
+            <div class="col-md-4">
+                <input type="text" id="txtQuantity" name="txtQuantity" />
+            </div>
+
+
+            <div class="col-md-2">
+                Entry Date
+            </div>
+
+            <div class="col-md-4">
+                <input type="text" id="txtEntryDate" name="txtEntryDate" />
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <input type="submit" id="btnSubmit" name="btnSubmit" value="Save Equipment" />
+        </div>
+    }
+
+
+</div>
+
